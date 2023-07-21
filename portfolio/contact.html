@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background:url(jeremy-bishop-G9i_plbfDgk-unsplash.jpg)no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        #contact-form {
+            max-width: 400px;
+            margin: 50px auto;
+            background-color:transparent;
+            border-radius: 8px;
+            padding: 40px;
+            color: yellow;
+        }
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            background-color: cyan;
+            color: green;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: white;
+        }
+        .afs{
+          color: cyan;
+          margin-left: 70%;
+          font-size: 30px;
+        }
+        .navbar{
+    display: flex;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 48%;
+    transition: .35;
+}
+.navbar a{
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 10px 13px;
+}
+.navbar a:hover{
+    color: yellow;
+}
+.hgh{
+    width: 50%;
+}
+.pop{
+    width: 50%;
+    color: cyan;
+    position: absolute;
+    right: 30px;
+    top: 35%;
+}
+.contacter {
+                color: cyan;
+                font-size: 30px;
+                position: absolute;
+                right: 290px;
+                top: 250px;
+            }
+            .contacter a{
+                color: olive;
+                font-size: 30px;  
+                font-family: Georgia, 'Times New Roman', Times, serif;             
+            }
+            .contacter a:hover{
+                color: cyan;
+                font-size: 30px;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo" ><span class="aa">P</span>ortfolio</div>
+        <nav class="navbar">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="skill.html">SKILL</a>
+            <a href="education.html">EDUCATION</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+     </header>
+     <h2 class="afs">Contact Me</h2>
+     <div class="hgh">
+    <div id="contact-form">
+        <form action="process_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="eg:- Pricky"id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email"placeholder="king12@gmail.com" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message"placeholder="drop message here...." name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+    </div>
+    <div class="contacter">  
+        <i class='bx bxs-phone'></i>&nbsp;&nbsp;&nbsp;+919150732863<br>
+        <i class='bx bxl-github'></i>&nbsp;&nbsp;&nbsp;<a href="https://github.com/krishwar>">krishwar</a><br>
+        <i class="fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/v-krishwar-5051a0259">V krishwar</a></h3><br>
+        <i class='bx bx-envelope'></i>&nbsp;&nbsp;&nbsp;vkrishwar@gmail.com<br>
+    </div>
+</body>
+</html>
